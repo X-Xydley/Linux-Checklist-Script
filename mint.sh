@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# LAST UPDATED: Mar 4, 2025
+
 manageServices() {
     # Predetermined list of services to be removed
     local SERVICES_TO_REMOVE=(openssh-server ssh nmap rsh-client talk telnet rpcbind dnsmasq dovecot-imapd dovecot-pop3d squid dnmpd nis iptables-persistent nginx aisleriot rsync netcat netcat-openbsd netcat-traditional ncat pnetcat socat sock sbd hydra hydra-gtk john john-data aircrack-ng fcrackzip lcrack ophcrack ophcrack-cli pdfcrack pyrit rarcrack sipcrack irpas wireshark samba* apport ntp avahi-daemon cups isc-dhcp-server ldap-utils slapd nfs-kernel-server bind9 vsftpd apache2 dovecot-imapd dovecot-pop3d squid dnmpd nis dnsmasq snort)
