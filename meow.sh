@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# LAST UPDATED: Dec 3, 2024
+
 # Determine if SSH is required
 ManageSSH() {
     read -p "Is SSH a critical service? (y/n): " response
