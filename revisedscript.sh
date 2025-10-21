@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# LAST UPDATED: Nov 14, 2024
+
 ManageSSH() {
     read -p "Is SSH a critical service? (y/n): " response
     if [[ "$response" == "y" ]]; then
